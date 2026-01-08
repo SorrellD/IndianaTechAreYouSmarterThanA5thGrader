@@ -587,7 +587,7 @@
 
   <script>
     const DEFAULT_TIME = 60;
-    const DEFAULT_LIFELINES = { peek: 2, copy: 2 };
+    const DEFAULT_LIFELINES = { peek: 1, copy: 1 };
     const DEFAULT_RULES = `Are You Smarter Than A 5th Grader?
 Indiana Tech Resident Assistants vs Forest Park Elementary
 The goal: earn your team the most points by answering questions correctly!
@@ -595,7 +595,7 @@ One RA and one 5th grader are at the podium at a time. Everyone else is part of 
 The game has two rounds. Each round has five subjects and twenty-five total questions. Questions are worth more points as they get harder.
 A subject and point value are chosen by an alternating team for each question. The question is read out loud. Everyone writes their answer on a whiteboard. When finished, players ring the bell. Players may then choose to use a lifeline. Answers are revealed.
 Scoring is team-based. Both podium players answer every question. Both can earn points if correct. Both can miss points if incorrect. Audience answers do not earn points, but may be used for lifelines.
-Each team gets two "Peeks" and two "Copies" per round. A Peek allows a player to look at the other group's answers, including the audience or opposing team, and change their answer if needed. A Copy requires the player to copy the opposing podium player's answer exactly. If that answer is wrong, the copied answer is also wrong. Lifelines reset at the start of each round.
+Each team gets one "Peek" and one "Copy" per round. A Peek allows a player to see all of the answers from the opposing team and the audience and change their answer if needed. A Copy requires the player to copy the opposing podium player's answer exactly. If that answer is wrong, the copied answer is also wrong. Any player who wishes to use a Peek or a Copy in a given round must lock in using "Peek" or "Copy" on their writing board. Lifelines reset at the start of each round.
 Answers are short, usually a word or a number. There is no partial credit. Judges' decisions are final. Write your answer first, ring the bell when ready.`;
 
     const QUESTIONS = [
@@ -1015,3 +1015,4 @@ Answers are short, usually a word or a number. There is no partial credit. Judge
   </script>
 </body>
 </html>
+
